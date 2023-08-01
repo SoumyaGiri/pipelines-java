@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: SOUMYA
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
